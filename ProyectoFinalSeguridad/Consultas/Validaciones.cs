@@ -14,7 +14,7 @@ namespace ProyectoFinalSeguridad.Consultas
     {
         public string ValidarTarjeta(string TextoPlano)
         {
-            Regex r = new Regex(@"[0-9]{16}");
+            Regex r = new Regex(@"^[0-9$]{16}$");
             
 
             if (r.IsMatch(TextoPlano))

@@ -59,6 +59,8 @@
             this.txbTarjeta.Name = "txbTarjeta";
             this.txbTarjeta.Size = new System.Drawing.Size(157, 20);
             this.txbTarjeta.TabIndex = 2;
+            this.txbTarjeta.Enter += new System.EventHandler(this.txbTarjeta_Enter);
+            this.txbTarjeta.Leave += new System.EventHandler(this.txbTarjeta_Leave);
             // 
             // lblProcesando
             // 

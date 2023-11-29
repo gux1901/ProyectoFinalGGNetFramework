@@ -1,0 +1,384 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23517.17 (9d4cc030)",
+        "semanticVersion": "4.7.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'plainText' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 23,
+                  "endLine": 45,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'Key' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 23,
+                  "endLine": 47,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'IV' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 23,
+                  "endLine": 49,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'cipherText' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 23,
+                  "endLine": 85,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'Key' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 23,
+                  "endLine": 87,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'IV' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 23,
+                  "endLine": 89,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6444",
+          "level": "warning",
+          "message": "Pass a timeout to limit the execution time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S2292": {
+          "id": "S2292",
+          "shortDescription": "Trivial properties should be auto-implemented",
+          "fullDescription": "Trivial properties, which include no logic but setting and getting a backing field should be converted to auto-implemented properties, yielding cleaner and more readable code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2292",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3928": {
+          "id": "S3928",
+          "shortDescription": "Parameter names used into ArgumentException constructors should match an existing one ",
+          "fullDescription": "Some constructors of the ArgumentException, ArgumentNullException, ArgumentOutOfRangeException and DuplicateWaitObjectException classes must be fed with a valid parameter name. This rule raises an issue in two cases:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3928",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6444": {
+          "id": "S6444",
+          "shortDescription": "Not specifying a timeout for regular expressions is security-sensitive",
+          "fullDescription": "Not specifying a timeout for regular expressions can lead to a Denial-of-Service attack. Pass a timeout when using System.Text.RegularExpressions to process untrusted input because a malicious user might craft a value for which the evaluation lasts excessively long.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6444",
+          "properties": {
+            "category": "Major Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

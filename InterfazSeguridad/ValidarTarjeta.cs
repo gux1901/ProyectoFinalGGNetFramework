@@ -14,13 +14,14 @@ namespace InterfazSeguridad
 {
     public partial class ValidarTarjeta : Form
     {
-        public static byte[] generateKey;
-        public static byte[] generateIv;
-        public static string tarjeta;
-        public static byte[] encryptText;
-        public static byte[] hash;
-        public static byte[] hashDesencriptado;
-        public static string decryptText;
+        private static byte[] generateKey;
+        private static byte[] generateIv;
+        private static string tarjeta;
+        private static string textoSanitizado;
+        private static byte[] encryptText;
+        private static byte[] hash;
+        private static byte[] hashDesencriptado;
+        private static string decryptText;
         public static readonly wsSeguridad.WsSeguridad ws = new wsSeguridad.WsSeguridad();
         public ValidarTarjeta()
         {
@@ -32,14 +33,15 @@ namespace InterfazSeguridad
             tarjeta = Regex.Replace(txbTarjeta.Text, @"[^\w\s.!@$%^&*()\-\/]+", "");
             lblProcesando.Text = "Texto Sanitizado "+ tarjeta;
 
-            string textoSanitizado = ws.Tarjetas(tarjeta);
+            textoSanitizado = ws.Tarjetas(tarjeta);
+            txbTarjeta.Text = textoSanitizado;
             lblProcesando.Text += "\nValidacion Tarjeta "+ textoSanitizado;
             if (!textoSanitizado.Contains("No es tarjeta Valida"))
             {
                 if (generateIv == null && generateKey == null)
                 {
-                    GeneradorLlaves llaves = new GeneradorLlaves();
-                    llaves = ws.ObtenerLlaves();
+                    _ = new GeneradorLlaves();
+                    GeneradorLlaves llaves = ws.ObtenerLlaves();
                     generateKey = llaves.Key;
                     generateIv = llaves.Iv;
                 }
@@ -65,7 +67,7 @@ namespace InterfazSeguridad
                 lblProcesando.Text += "\nTextoDesencriptado: " + decryptText;
 
                 hashDesencriptado = ws.Hashing(decryptText);
-                lblProcesando.Text += "\nHash despues de desencriptar: " + decryptText;
+                lblProcesando.Text += "\nHash despues de desencriptar: " + Convert.ToBase64String(hashDesencriptado);
 
                 if (Convert.ToBase64String(hash) == Convert.ToBase64String(hashDesencriptado)) lblProcesando.Text += "\nPrimer Hash igual a hash despues de desencriptacion ";
             }
@@ -74,6 +76,16 @@ namespace InterfazSeguridad
 
 
 
+        }
+
+        private void txbTarjeta_Enter(object sender, EventArgs e)
+        {
+                txbTarjeta.Text = tarjeta;
+        }
+
+        private void txbTarjeta_Leave(object sender, EventArgs e)
+        {
+                //txbTarjeta.Text = textoSanitizado;
         }
     }
 }

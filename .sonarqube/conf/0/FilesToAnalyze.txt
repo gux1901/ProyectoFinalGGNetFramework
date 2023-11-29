@@ -1,0 +1,11 @@
+﻿C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\Consultas\Validaciones.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\DTO\Desencriptador.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\DTO\Encriptador.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\DTO\GeneradorLlaves.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\Properties\AssemblyInfo.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\WsSeguridad.asmx.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\Web.config
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\WsSeguridad.asmx
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\packages.config
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\Web.Debug.config
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\Web.Release.config

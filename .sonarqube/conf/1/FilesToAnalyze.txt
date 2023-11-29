@@ -1,0 +1,12 @@
+﻿C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Program.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Properties\AssemblyInfo.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\ValidarTarjeta.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\ValidarTarjeta.Designer.cs
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Properties\Resources.resx
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\ValidarTarjeta.resx
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Properties\Settings.settings
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Web References\wsSeguridad\GeneradorLlaves.datasource
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Web References\wsSeguridad\Reference.map
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Web References\wsSeguridad\WsSeguridad.wsdl
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\App.config
+C:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Web References\wsSeguridad\WsSeguridad.disco
