@@ -12,27 +12,6 @@
       },
       "results": [
         {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 88,
-                  "startColumn": 17,
-                  "endLine": 88,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S6444",
           "level": "warning",
           "message": "Pass a timeout to limit the execution time.",
@@ -55,23 +34,6 @@
         }
       ],
       "rules": {
-        "S125": {
-          "id": "S125",
-          "shortDescription": "Sections of code should not be commented out",
-          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
         "S6444": {
           "id": "S6444",
           "shortDescription": "Not specifying a timeout for regular expressions is security-sensitive",

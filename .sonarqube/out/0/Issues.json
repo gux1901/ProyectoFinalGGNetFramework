@@ -18,6 +18,69 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
                 "region": {
                   "startLine": 14,
@@ -41,72 +104,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
                 "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
-                "region": {
                   "startLine": 16,
                   "startColumn": 23,
                   "endLine": 16,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
                   "endColumn": 25
                 }
               }
@@ -144,11 +144,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
                 "region": {
-                  "startLine": 15,
+                  "startLine": 13,
                   "startColumn": 23,
-                  "endLine": 15,
+                  "endLine": 13,
                   "endColumn": 26
                 }
               }
@@ -165,12 +165,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
                 "region": {
-                  "startLine": 16,
+                  "startLine": 15,
                   "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 25
+                  "endLine": 15,
+                  "endColumn": 26
                 }
               }
             }

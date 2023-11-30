@@ -44,7 +44,10 @@ namespace ProyectoFinalSeguridad.Consultas
             if (encriptador.PlainText == null || encriptador.PlainText.Length <= 0)
                 throw new ArgumentNullException("plainText");
             if (encriptador.Key == null || encriptador.Key.Length <= 0)
+            {
                 throw new ArgumentNullException("Key");
+            }
+
             if (encriptador.IV == null || encriptador.IV.Length <= 0)
                 throw new ArgumentNullException("IV");
             byte[] encrypted;
@@ -78,8 +81,10 @@ namespace ProyectoFinalSeguridad.Consultas
             return encrypted;
         }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Major Code Smell", "S3928:Parameter names used into ArgumentException constructors should match an existing one ", Justification = "<Pending>")]
         public string DesencriptacionAES256(DTO.Desencriptador desencriptador)
         {
+            
             // Check arguments.
             if (desencriptador.CipherText == null || desencriptador.CipherText.Length <= 0)
                 throw new ArgumentNullException("cipherText");
@@ -128,7 +133,6 @@ namespace ProyectoFinalSeguridad.Consultas
                 {
                     hashValue = mySHA256.ComputeHash(Encoding.UTF8.GetBytes(CadenaTexto));
                     
-
                 }
                 catch (IOException e)
                 {

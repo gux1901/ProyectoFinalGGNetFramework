@@ -4,13 +4,13 @@ QC:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Program.
 		 !
 
  c
-aC:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Properties\AssemblyInfo.csÂ
+aC:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\Properties\AssemblyInfo.csž
 XC:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\ValidarTarjeta.cs
 
  '<
  "))* 5-- 00K V66( 3>>% 0<
  !)) .. 11H R77' 1??$ .F
- !! ""6 =$$* 122" )88. 5SS" )2
+ !! ""6 =$$* 122" )88. 5NN" )2
  &$$ %% -&&; J''  (
  "99 ;;U `@@, 7(
  22 33J NHH+ /(
@@ -27,14 +27,8 @@ XC:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\ValidarT
 44( 966 !77 !88 !99+ <2
 == ->> ?? @@ AA. <
 
-QQ %
+LL %
 
-QQ- 3
+LL- 3
 
-QQ? @
-
-VV %
-
-VV- 3
-
-VV? @
+LL? @

@@ -171,7 +171,7 @@ ComVisible 
 ($$ 
 $str$$ (
 )$$( )
-]$$) *—;
+]$$) *¹9
 XC:\Users\galopez\source\repos\ProyectoFinalSeguridad\InterfazSeguridad\ValidarTarjeta.cs
 	namespace 	
 InterfazSeguridad
@@ -555,37 +555,25 @@ CipherText@@ )
 ;
 HH­ ®
 }II 
-}OO 	
-privateQQ 
-voidQQ 
-txbTarjeta_EnterQQ %
-(QQ% &
-objectQQ& ,
-senderQQ- 3
-,QQ3 4
-	EventArgsQQ5 >
-eQQ? @
-)QQ@ A
-{RR 	
+}JJ 	
+privateLL 
+voidLL 
+txbTarjeta_EnterLL %
+(LL% &
+objectLL& ,
+senderLL- 3
+,LL3 4
+	EventArgsLL5 >
+eLL? @
+)LL@ A
+{MM 	
 
-txbTarjetaSS 
-.SS 
-TextSS 
-=SS  !
-tarjetaSS" )
-;SS) *
-}TT 	
-privateVV 
-voidVV 
-txbTarjeta_LeaveVV %
-(VV% &
-objectVV& ,
-senderVV- 3
-,VV3 4
-	EventArgsVV5 >
-eVV? @
-)VV@ A
-{WW 	
-}YY 	
-}ZZ 
-}[[ 
+txbTarjetaNN 
+.NN 
+TextNN 
+=NN  !
+tarjetaNN" )
+;NN) *
+}OO 	
+}PP 
+}QQ 
