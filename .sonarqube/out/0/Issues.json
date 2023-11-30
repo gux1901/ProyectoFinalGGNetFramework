@@ -20,6 +20,48 @@
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
                 "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "region": {
                   "startLine": 14,
                   "startColumn": 23,
                   "endLine": 14,
@@ -60,27 +102,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
                 "region": {
                   "startLine": 13,
@@ -103,27 +124,6 @@
             {
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 23,
@@ -171,69 +171,6 @@
                   "startColumn": 23,
                   "endLine": 14,
                   "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3928",
-          "level": "warning",
-          "message": "The parameter name 'plainText' is not declared in the argument list.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
-                "region": {
-                  "startLine": 45,
-                  "startColumn": 23,
-                  "endLine": 45,
-                  "endColumn": 61
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3928",
-          "level": "warning",
-          "message": "The parameter name 'Key' is not declared in the argument list.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
-                "region": {
-                  "startLine": 47,
-                  "startColumn": 23,
-                  "endLine": 47,
-                  "endColumn": 55
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3928",
-          "level": "warning",
-          "message": "The parameter name 'IV' is not declared in the argument list.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
-                "region": {
-                  "startLine": 49,
-                  "startColumn": 23,
-                  "endLine": 49,
-                  "endColumn": 54
                 }
               }
             }
@@ -306,6 +243,69 @@
           }
         },
         {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'plainText' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 23,
+                  "endLine": 45,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'Key' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 23,
+                  "endLine": 47,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'IV' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 23,
+                  "endLine": 49,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S6444",
           "level": "warning",
           "message": "Pass a timeout to limit the execution time.",
@@ -317,7 +317,7 @@
                   "startLine": 17,
                   "startColumn": 23,
                   "endLine": 17,
-                  "endColumn": 46
+                  "endColumn": 49
                 }
               }
             }

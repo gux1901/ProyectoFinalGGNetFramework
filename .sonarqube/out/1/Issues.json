@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S1854",
+          "ruleId": "S125",
           "level": "warning",
-          "message": "Remove this useless assignment to local variable 'llaves'.",
+          "message": "Remove this commented out code.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
                 "region": {
-                  "startLine": 41,
-                  "startColumn": 37,
-                  "endLine": 41,
-                  "endColumn": 67
+                  "startLine": 88,
+                  "startColumn": 17,
+                  "endLine": 88,
+                  "endColumn": 53
                 }
               }
             }
@@ -41,248 +41,10 @@
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
                 "region": {
-                  "startLine": 32,
+                  "startLine": 33,
                   "startColumn": 23,
-                  "endLine": 32,
+                  "endLine": 33,
                   "endColumn": 84
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2696",
-          "level": "warning",
-          "message": "Make the enclosing instance method 'static' or remove this set on the 'static' field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 32,
-                  "startColumn": 13,
-                  "endLine": 32,
-                  "endColumn": 22
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 31,
-                  "endLine": 19,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2696",
-          "level": "warning",
-          "message": "Make the enclosing instance method 'static' or remove this set on the 'static' field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 43,
-                  "startColumn": 21,
-                  "endLine": 43,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 31,
-                  "endLine": 17,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2696",
-          "level": "warning",
-          "message": "Make the enclosing instance method 'static' or remove this set on the 'static' field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 44,
-                  "startColumn": 21,
-                  "endLine": 44,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 31,
-                  "endLine": 18,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2696",
-          "level": "warning",
-          "message": "Make the enclosing instance method 'static' or remove this set on the 'static' field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 48,
-                  "startColumn": 17,
-                  "endLine": 48,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 21,
-                  "startColumn": 31,
-                  "endLine": 21,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2696",
-          "level": "warning",
-          "message": "Make the enclosing instance method 'static' or remove this set on the 'static' field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 55,
-                  "startColumn": 17,
-                  "endLine": 55,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 31,
-                  "endLine": 20,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2696",
-          "level": "warning",
-          "message": "Make the enclosing instance method 'static' or remove this set on the 'static' field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 63,
-                  "startColumn": 17,
-                  "endLine": 63,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 31,
-                  "endLine": 23,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2696",
-          "level": "warning",
-          "message": "Make the enclosing instance method 'static' or remove this set on the 'static' field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 67,
-                  "startColumn": 17,
-                  "endLine": 67,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/InterfazSeguridad/ValidarTarjeta.cs",
-                "region": {
-                  "startLine": 22,
-                  "startColumn": 31,
-                  "endLine": 22,
-                  "endColumn": 48
                 }
               }
             }
@@ -293,12 +55,12 @@
         }
       ],
       "rules": {
-        "S1854": {
-          "id": "S1854",
-          "shortDescription": "Unused assignments should be removed",
-          "fullDescription": "A dead store happens when a local variable is assigned a value that is not read by any subsequent instruction. Calculating or retrieving a value only to then overwrite it or throw it away, could indicate a serious error in the code. Even if it’s not an error, it is at best a waste of resources. Therefore all calculated values should be used.",
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
           "properties": {
             "category": "Major Code Smell",
             "isEnabledByDefault": true,
@@ -306,22 +68,6 @@
               "C#",
               "MainSourceScope",
               "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S2696": {
-          "id": "S2696",
-          "shortDescription": "Instance members should not write to \"static\" fields",
-          "fullDescription": "Correctly updating a static field from a non-static method is tricky to get right and could easily lead to bugs if there are multiple class instances and/or multiple threads in play.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2696",
-          "properties": {
-            "category": "Critical Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
               "SonarWay"
             ]
           }

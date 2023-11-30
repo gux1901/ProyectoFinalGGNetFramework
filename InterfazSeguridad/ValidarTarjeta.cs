@@ -14,15 +14,15 @@ namespace InterfazSeguridad
 {
     public partial class ValidarTarjeta : Form
     {
-        private static byte[] generateKey;
-        private static byte[] generateIv;
-        private static string tarjeta;
-        private static string textoSanitizado;
-        private static byte[] encryptText;
-        private static byte[] hash;
-        private static byte[] hashDesencriptado;
-        private static string decryptText;
-        public static readonly wsSeguridad.WsSeguridad ws = new wsSeguridad.WsSeguridad();
+        private byte[] generateKey;
+        private byte[] generateIv;
+        private string tarjeta;
+        private string textoSanitizado;
+        private byte[] encryptText;
+        private byte[] hash;
+        private byte[] hashDesencriptado;
+        private string decryptText;
+        public readonly wsSeguridad.WsSeguridad ws = new wsSeguridad.WsSeguridad();
         public ValidarTarjeta()
         {
             InitializeComponent();
