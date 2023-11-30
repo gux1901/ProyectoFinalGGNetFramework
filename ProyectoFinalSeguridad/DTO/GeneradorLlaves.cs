@@ -7,10 +7,8 @@ namespace ProyectoFinalSeguridad.DTO
 {
     public class GeneradorLlaves
     {
-        private byte[] key;
-        private byte[] iv;
-
-        public byte[] Key { get => key; set => key = value; }
-        public byte[] Iv { get => iv; set => iv = value; }
+        
+        public byte[] Key { get; set; }
+        public byte[] Iv { get; set; }
     }
 }

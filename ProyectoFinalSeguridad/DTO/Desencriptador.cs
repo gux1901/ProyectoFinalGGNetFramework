@@ -7,12 +7,9 @@ namespace ProyectoFinalSeguridad.DTO
 {
     public class Desencriptador
     {
-        private byte[] cipherText;
-        private byte[] key;
-        private byte[] iV;
 
-        public byte[] CipherText { get => cipherText; set => cipherText = value; }
-        public byte[] Key { get => key; set => key = value; }
-        public byte[] IV { get => iV; set => iV = value; }
+        public byte[] CipherText { get; set; }
+        public byte[] Key { get; set; }
+        public byte[] IV { get; set; }
     }
 }

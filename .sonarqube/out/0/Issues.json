@@ -18,53 +18,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
                 "region": {
                   "startLine": 16,
                   "startColumn": 23,
                   "endLine": 16,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
                   "endColumn": 25
                 }
               }
@@ -104,9 +62,51 @@
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
                 "region": {
-                  "startLine": 16,
+                  "startLine": 15,
                   "startColumn": 23,
-                  "endLine": 16,
+                  "endLine": 15,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
                   "endColumn": 25
                 }
               }
@@ -144,12 +144,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/GeneradorLlaves.cs",
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
                 "region": {
-                  "startLine": 13,
+                  "startLine": 16,
                   "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 26
+                  "endLine": 16,
+                  "endColumn": 25
                 }
               }
             }
@@ -165,7 +165,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Desencriptador.cs",
+                "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/DTO/Encriptador.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 23,
@@ -209,9 +209,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
                 "region": {
-                  "startLine": 47,
+                  "startLine": 48,
                   "startColumn": 23,
-                  "endLine": 47,
+                  "endLine": 48,
                   "endColumn": 55
                 }
               }
@@ -230,9 +230,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
                 "region": {
-                  "startLine": 49,
+                  "startLine": 52,
                   "startColumn": 23,
-                  "endLine": 49,
+                  "endLine": 52,
                   "endColumn": 54
                 }
               }
@@ -246,14 +246,17 @@
           "ruleId": "S3928",
           "level": "warning",
           "message": "The parameter name 'cipherText' is not declared in the argument list.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
                 "region": {
-                  "startLine": 85,
+                  "startLine": 90,
                   "startColumn": 23,
-                  "endLine": 85,
+                  "endLine": 90,
                   "endColumn": 62
                 }
               }
@@ -267,14 +270,17 @@
           "ruleId": "S3928",
           "level": "warning",
           "message": "The parameter name 'Key' is not declared in the argument list.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
                 "region": {
-                  "startLine": 87,
+                  "startLine": 92,
                   "startColumn": 23,
-                  "endLine": 87,
+                  "endLine": 92,
                   "endColumn": 55
                 }
               }
@@ -288,14 +294,17 @@
           "ruleId": "S3928",
           "level": "warning",
           "message": "The parameter name 'IV' is not declared in the argument list.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/galopez/source/repos/ProyectoFinalSeguridad/ProyectoFinalSeguridad/Consultas/Validaciones.cs",
                 "region": {
-                  "startLine": 89,
+                  "startLine": 94,
                   "startColumn": 23,
-                  "endLine": 89,
+                  "endLine": 94,
                   "endColumn": 54
                 }
               }

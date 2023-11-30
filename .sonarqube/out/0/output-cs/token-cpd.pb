@@ -1,4 +1,4 @@
-ªU
+€X
 eC:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\Consultas\Validaciones.cs
 	namespace 	"
 ProyectoFinalSeguridad
@@ -173,461 +173,466 @@ TextoPlano !
 Length..; A
 <=..B D
 $num..E F
-)..F G
-throw// 
-new// !
-ArgumentNullException// /
-(/// 0
-$str//0 5
-)//5 6
-;//6 7
-if00 
-(00 
-encriptador00 
-.00 
-IV00 
-==00 !
-null00" &
-||00' )
-encriptador00* 5
-.005 6
-IV006 8
-.008 9
-Length009 ?
-<=00@ B
-$num00C D
-)00D E
-throw11 
-new11 !
-ArgumentNullException11 /
-(11/ 0
-$str110 4
-)114 5
-;115 6
-byte22 
-[22 
-]22 
-	encrypted22 
-;22 
-using66 
-(66 
-Aes66 
-aesAlg66 
-=66 
-Aes66  #
-.66# $
-Create66$ *
-(66* +
-)66+ ,
-)66, -
-{77 
-aesAlg88 
-.88 
-Key88 
-=88 
-encriptador88 (
-.88( )
-Key88) ,
-;88, -
-aesAlg99 
-.99 
-IV99 
-=99 
-encriptador99 '
-.99' (
-IV99( *
-;99* +
-ICryptoTransform<<  
-	encryptor<<! *
-=<<+ ,
-aesAlg<<- 3
-.<<3 4
-CreateEncryptor<<4 C
-(<<C D
-aesAlg<<D J
-.<<J K
-Key<<K N
-,<<N O
-aesAlg<<P V
-.<<V W
-IV<<W Y
-)<<Y Z
-;<<Z [
-using?? 
-(?? 
-MemoryStream?? #
-	msEncrypt??$ -
-=??. /
-new??0 3
-MemoryStream??4 @
-(??@ A
-)??A B
-)??B C
-{@@ 
-usingAA 
-(AA 
-CryptoStreamAA '
-	csEncryptAA( 1
-=AA2 3
-newAA4 7
-CryptoStreamAA8 D
-(AAD E
-	msEncryptAAE N
-,AAN O
-	encryptorAAP Y
-,AAY Z
-CryptoStreamModeAA[ k
-.AAk l
-WriteAAl q
-)AAq r
-)AAr s
-{BB 
-usingCC 
-(CC 
-StreamWriterCC +
-	swEncryptCC, 5
-=CC6 7
-newCC8 ;
-StreamWriterCC< H
-(CCH I
-	csEncryptCCI R
-)CCR S
-)CCS T
-{DD 
-	swEncryptFF %
-.FF% &
-WriteFF& +
-(FF+ ,
-encriptadorFF, 7
-.FF7 8
-	PlainTextFF8 A
-)FFA B
-;FFB C
-}GG 
-	encryptedHH !
-=HH" #
-	msEncryptHH$ -
-.HH- .
-ToArrayHH. 5
-(HH5 6
-)HH6 7
-;HH7 8
-}II 
-}JJ 
-}KK 
-returnNN 
-	encryptedNN 
-;NN 
-}OO 	
-publicQQ 
-stringQQ !
-DesencriptacionAES256QQ +
-(QQ+ ,
-DTOQQ, /
-.QQ/ 0
-DesencriptadorQQ0 >
-desencriptadorQQ? M
-)QQM N
-{RR 	
-ifTT 
-(TT 
-desencriptadorTT 
-.TT 
-
-CipherTextTT )
-==TT* ,
-nullTT- 1
-||TT2 4
-desencriptadorTT5 C
-.TTC D
-
-CipherTextTTD N
-.TTN O
-LengthTTO U
-<=TTV X
-$numTTY Z
-)TTZ [
-throwUU 
-newUU !
-ArgumentNullExceptionUU /
-(UU/ 0
-$strUU0 <
-)UU< =
-;UU= >
-ifVV 
-(VV 
-desencriptadorVV 
-.VV 
-KeyVV "
-==VV# %
-nullVV& *
-||VV+ -
-desencriptadorVV. <
-.VV< =
-KeyVV= @
-.VV@ A
-LengthVVA G
-<=VVH J
-$numVVK L
-)VVL M
-throwWW 
-newWW !
-ArgumentNullExceptionWW /
-(WW/ 0
-$strWW0 5
-)WW5 6
-;WW6 7
-ifXX 
-(XX 
-desencriptadorXX 
-.XX 
-IVXX !
-==XX" $
-nullXX% )
-||XX* ,
-desencriptadorXX- ;
-.XX; <
-IVXX< >
-.XX> ?
-LengthXX? E
-<=XXF H
-$numXXI J
-)XXJ K
-throwYY 
-newYY !
-ArgumentNullExceptionYY /
-(YY/ 0
-$strYY0 4
-)YY4 5
-;YY5 6
-string]] 
-	plaintext]] 
-=]] 
-null]] #
-;]]# $
-usingaa 
-(aa 
-Aesaa 
-aesAlgaa 
-=aa 
-Aesaa  #
-.aa# $
-Createaa$ *
-(aa* +
-)aa+ ,
-)aa, -
-{bb 
-aesAlgcc 
-.cc 
-Keycc 
-=cc 
-desencriptadorcc +
-.cc+ ,
-Keycc, /
-;cc/ 0
-aesAlgdd 
-.dd 
-IVdd 
-=dd 
-desencriptadordd *
-.dd* +
-IVdd+ -
-;dd- .
-ICryptoTransformgg  
-	decryptorgg! *
-=gg+ ,
-aesAlggg- 3
-.gg3 4
-CreateDecryptorgg4 C
-(ggC D
-aesAlgggD J
-.ggJ K
-KeyggK N
-,ggN O
-aesAlgggP V
-.ggV W
-IVggW Y
-)ggY Z
-;ggZ [
-usingjj 
-(jj 
-MemoryStreamjj #
-	msDecryptjj$ -
-=jj. /
-newjj0 3
-MemoryStreamjj4 @
-(jj@ A
-desencriptadorjjA O
-.jjO P
-
-CipherTextjjP Z
-)jjZ [
-)jj[ \
-{kk 
-usingll 
-(ll 
-CryptoStreamll '
-	csDecryptll( 1
-=ll2 3
-newll4 7
-CryptoStreamll8 D
-(llD E
-	msDecryptllE N
-,llN O
-	decryptorllP Y
-,llY Z
-CryptoStreamModell[ k
-.llk l
-Readlll p
-)llp q
-)llq r
-{mm 
-usingnn 
-(nn 
-StreamReadernn +
-	srDecryptnn, 5
-=nn6 7
-newnn8 ;
-StreamReadernn< H
-(nnH I
-	csDecryptnnI R
-)nnR S
-)nnS T
-{oo 
-	plaintextss %
-=ss& '
-	srDecryptss( 1
-.ss1 2
-	ReadToEndss2 ;
-(ss; <
-)ss< =
-;ss= >
-}tt 
-}uu 
-}vv 
-}ww 
-returnxx 
-	plaintextxx 
-;xx 
-}yy 	
-publiczz 
-bytezz 
-[zz 
-]zz 
-Hashzz 
-(zz 
-stringzz !
-CadenaTextozz" -
-)zz- .
-{{{ 	
-byte|| 
-[|| 
-]|| 
-	hashValue|| 
-=|| 
-null|| #
-;||# $
-using}} 
-(}} 
-SHA256}} 
-mySHA256}} "
-=}}# $
-SHA256}}% +
-.}}+ ,
-Create}}, 2
-(}}2 3
-)}}3 4
-)}}4 5
-{~~ 
-try 
-{
-ÄÄ 
-	hashValue
-ÅÅ 
+)..F G
+{// 
+throw00 
+new00 !
+ArgumentNullException00 /
+(00/ 0
+$str000 5
+)005 6
+;006 7
+}11 
+if33 
+(33 
+encriptador33 
+.33 
+IV33 
+==33 !
+null33" &
+||33' )
+encriptador33* 5
+.335 6
+IV336 8
+.338 9
+Length339 ?
+<=33@ B
+$num33C D
+)33D E
+throw44 
+new44 !
+ArgumentNullException44 /
+(44/ 0
+$str440 4
+)444 5
+;445 6
+byte55 
+[55 
+]55 
+	encrypted55 
+;55 
+using99 
+(99 
+Aes99 
+aesAlg99 
+=99 
+Aes99  #
+.99# $
+Create99$ *
+(99* +
+)99+ ,
+)99, -
+{:: 
+aesAlg;; 
+.;; 
+Key;; 
+=;; 
+encriptador;; (
+.;;( )
+Key;;) ,
+;;;, -
+aesAlg<< 
+.<< 
+IV<< 
+=<< 
+encriptador<< '
+.<<' (
+IV<<( *
+;<<* +
+ICryptoTransform??  
+	encryptor??! *
+=??+ ,
+aesAlg??- 3
+.??3 4
+CreateEncryptor??4 C
+(??C D
+aesAlg??D J
+.??J K
+Key??K N
+,??N O
+aesAlg??P V
+.??V W
+IV??W Y
+)??Y Z
+;??Z [
+usingBB 
+(BB 
+MemoryStreamBB #
+	msEncryptBB$ -
+=BB. /
+newBB0 3
+MemoryStreamBB4 @
+(BB@ A
+)BBA B
+)BBB C
+{CC 
+usingDD 
+(DD 
+CryptoStreamDD '
+	csEncryptDD( 1
+=DD2 3
+newDD4 7
+CryptoStreamDD8 D
+(DDD E
+	msEncryptDDE N
+,DDN O
+	encryptorDDP Y
+,DDY Z
+CryptoStreamModeDD[ k
+.DDk l
+WriteDDl q
+)DDq r
+)DDr s
+{EE 
+usingFF 
+(FF 
+StreamWriterFF +
+	swEncryptFF, 5
+=FF6 7
+newFF8 ;
+StreamWriterFF< H
+(FFH I
+	csEncryptFFI R
+)FFR S
+)FFS T
+{GG 
+	swEncryptII %
+.II% &
+WriteII& +
+(II+ ,
+encriptadorII, 7
+.II7 8
+	PlainTextII8 A
+)IIA B
+;IIB C
+}JJ 
+	encryptedKK !
+=KK" #
+	msEncryptKK$ -
+.KK- .
+ToArrayKK. 5
+(KK5 6
+)KK6 7
+;KK7 8
+}LL 
+}MM 
+}NN 
+returnQQ 
+	encryptedQQ 
+;QQ 
+}RR 	
+[TT 	
+SystemTT	 
+.TT 
+DiagnosticsTT 
+.TT 
+CodeAnalysisTT (
+.TT( )
+SuppressMessageTT) 8
+(TT8 9
+$strTT9 K
+,TTK L
+$str	TTM ´
+,
+TT´ ¨
+Justification
+TT≠ ∫
 =
-ÅÅ 
-mySHA256
-ÅÅ  (
-.
-ÅÅ( )
-ComputeHash
-ÅÅ) 4
-(
-ÅÅ4 5
-Encoding
-ÅÅ5 =
-.
-ÅÅ= >
-UTF8
-ÅÅ> B
-.
-ÅÅB C
-GetBytes
-ÅÅC K
-(
-ÅÅK L
-CadenaTexto
-ÅÅL W
-)
-ÅÅW X
-)
-ÅÅX Y
-;
-ÅÅY Z
-}
-ÑÑ 
-catch
-ÖÖ 
-(
-ÖÖ 
-IOException
-ÖÖ "
-e
-ÖÖ# $
-)
-ÖÖ$ %
-{
-ÜÜ 
-Console
-áá 
-.
-áá 
-	WriteLine
-áá %
-(
-áá% &
-$"
-áá& (
+TTª º
 $str
-áá( 7
-{
-áá7 8
-e
-áá8 9
-.
-áá9 :
-Message
-áá: A
-}
-ááA B
-"
-ááB C
+TTΩ »
 )
-ááC D
+TT» …
+]
+TT…  
+publicUU 
+stringUU !
+DesencriptacionAES256UU +
+(UU+ ,
+DTOUU, /
+.UU/ 0
+DesencriptadorUU0 >
+desencriptadorUU? M
+)UUM N
+{VV 	
+ifYY 
+(YY 
+desencriptadorYY 
+.YY 
+
+CipherTextYY )
+==YY* ,
+nullYY- 1
+||YY2 4
+desencriptadorYY5 C
+.YYC D
+
+CipherTextYYD N
+.YYN O
+LengthYYO U
+<=YYV X
+$numYYY Z
+)YYZ [
+throwZZ 
+newZZ !
+ArgumentNullExceptionZZ /
+(ZZ/ 0
+$strZZ0 <
+)ZZ< =
+;ZZ= >
+if[[ 
+([[ 
+desencriptador[[ 
+.[[ 
+Key[[ "
+==[[# %
+null[[& *
+||[[+ -
+desencriptador[[. <
+.[[< =
+Key[[= @
+.[[@ A
+Length[[A G
+<=[[H J
+$num[[K L
+)[[L M
+throw\\ 
+new\\ !
+ArgumentNullException\\ /
+(\\/ 0
+$str\\0 5
+)\\5 6
+;\\6 7
+if]] 
+(]] 
+desencriptador]] 
+.]] 
+IV]] !
+==]]" $
+null]]% )
+||]]* ,
+desencriptador]]- ;
+.]]; <
+IV]]< >
+.]]> ?
+Length]]? E
+<=]]F H
+$num]]I J
+)]]J K
+throw^^ 
+new^^ !
+ArgumentNullException^^ /
+(^^/ 0
+$str^^0 4
+)^^4 5
+;^^5 6
+stringbb 
+	plaintextbb 
+=bb 
+nullbb #
+;bb# $
+usingff 
+(ff 
+Aesff 
+aesAlgff 
+=ff 
+Aesff  #
+.ff# $
+Createff$ *
+(ff* +
+)ff+ ,
+)ff, -
+{gg 
+aesAlghh 
+.hh 
+Keyhh 
+=hh 
+desencriptadorhh +
+.hh+ ,
+Keyhh, /
+;hh/ 0
+aesAlgii 
+.ii 
+IVii 
+=ii 
+desencriptadorii *
+.ii* +
+IVii+ -
+;ii- .
+ICryptoTransformll  
+	decryptorll! *
+=ll+ ,
+aesAlgll- 3
+.ll3 4
+CreateDecryptorll4 C
+(llC D
+aesAlgllD J
+.llJ K
+KeyllK N
+,llN O
+aesAlgllP V
+.llV W
+IVllW Y
+)llY Z
+;llZ [
+usingoo 
+(oo 
+MemoryStreamoo #
+	msDecryptoo$ -
+=oo. /
+newoo0 3
+MemoryStreamoo4 @
+(oo@ A
+desencriptadorooA O
+.ooO P
+
+CipherTextooP Z
+)ooZ [
+)oo[ \
+{pp 
+usingqq 
+(qq 
+CryptoStreamqq '
+	csDecryptqq( 1
+=qq2 3
+newqq4 7
+CryptoStreamqq8 D
+(qqD E
+	msDecryptqqE N
+,qqN O
+	decryptorqqP Y
+,qqY Z
+CryptoStreamModeqq[ k
+.qqk l
+Readqql p
+)qqp q
+)qqq r
+{rr 
+usingss 
+(ss 
+StreamReaderss +
+	srDecryptss, 5
+=ss6 7
+newss8 ;
+StreamReaderss< H
+(ssH I
+	csDecryptssI R
+)ssR S
+)ssS T
+{tt 
+	plaintextxx %
+=xx& '
+	srDecryptxx( 1
+.xx1 2
+	ReadToEndxx2 ;
+(xx; <
+)xx< =
+;xx= >
+}yy 
+}zz 
+}{{ 
+}|| 
+return}} 
+	plaintext}} 
+;}} 
+}~~ 	
+public 
+byte 
+[ 
+] 
+Hash 
+( 
+string !
+CadenaTexto" -
+)- .
+{
+ÄÄ 	
+byte
+ÅÅ 
+[
+ÅÅ 
+]
+ÅÅ 
+	hashValue
+ÅÅ 
+=
+ÅÅ 
+null
+ÅÅ #
 ;
-ááD E
+ÅÅ# $
+using
+ÇÇ 
+(
+ÇÇ 
+SHA256
+ÇÇ 
+mySHA256
+ÇÇ "
+=
+ÇÇ# $
+SHA256
+ÇÇ% +
+.
+ÇÇ+ ,
+Create
+ÇÇ, 2
+(
+ÇÇ2 3
+)
+ÇÇ3 4
+)
+ÇÇ4 5
+{
+ÉÉ 
+try
+ÑÑ 
+{
+ÖÖ 
+	hashValue
+ÜÜ 
+=
+ÜÜ 
+mySHA256
+ÜÜ  (
+.
+ÜÜ( )
+ComputeHash
+ÜÜ) 4
+(
+ÜÜ4 5
+Encoding
+ÜÜ5 =
+.
+ÜÜ= >
+UTF8
+ÜÜ> B
+.
+ÜÜB C
+GetBytes
+ÜÜC K
+(
+ÜÜK L
+CadenaTexto
+ÜÜL W
+)
+ÜÜW X
+)
+ÜÜX Y
+;
+ÜÜY Z
 }
 àà 
 catch
 ââ 
 (
-ââ )
-UnauthorizedAccessException
-ââ 2
+ââ 
+IOException
+ââ "
 e
-ââ3 4
+ââ# $
 )
-ââ4 5
+ââ$ %
 {
 ää 
 Console
@@ -641,38 +646,80 @@ CipherTextjjP Z
 $"
 ãã& (
 $str
-ãã( :
+ãã( 7
 {
-ãã: ;
+ãã7 8
 e
-ãã; <
+ãã8 9
 .
-ãã< =
+ãã9 :
 Message
-ãã= D
+ãã: A
 }
-ããD E
+ããA B
 "
-ããE F
+ããB C
 )
-ããF G
+ããC D
 ;
-ããG H
+ããD E
 }
-åå 
+åå 
+catch
+çç 
+(
+çç )
+UnauthorizedAccessException
+çç 2
+e
+çç3 4
+)
+çç4 5
+{
+éé 
+Console
+èè 
+.
+èè 
+	WriteLine
+èè %
+(
+èè% &
+$"
+èè& (
+$str
+èè( :
+{
+èè: ;
+e
+èè; <
+.
+èè< =
+Message
+èè= D
+}
+èèD E
+"
+èèE F
+)
+èèF G
+;
+èèG H
+}
+êê 
 return
-éé 
+íí 
 	hashValue
-éé  
+íí  
 ;
-éé  !
+íí  !
 }
-êê 
+îî 
 }
-ëë 	
+ïï 	
 }
-íí 
-}ìì √
+ññ 
+}óó √
 aC:\Users\galopez\source\repos\ProyectoFinalSeguridad\ProyectoFinalSeguridad\DTO\Desencriptador.cs
 	namespace 	"
 ProyectoFinalSeguridad
