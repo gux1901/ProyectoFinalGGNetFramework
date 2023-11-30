@@ -71,21 +71,11 @@ namespace InterfazSeguridad
 
                 if (Convert.ToBase64String(hash) == Convert.ToBase64String(hashDesencriptado)) lblProcesando.Text += "\nPrimer Hash igual a hash despues de desencriptacion ";
             }
-
-
-
-
-
         }
 
         private void txbTarjeta_Enter(object sender, EventArgs e)
         {
                 txbTarjeta.Text = tarjeta;
-        }
-
-        private void txbTarjeta_Leave(object sender, EventArgs e)
-        {
-                //txbTarjeta.Text = textoSanitizado;
         }
     }
 }
