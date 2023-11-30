@@ -37,7 +37,7 @@ namespace ProyectoFinalSeguridad.Consultas
             }
             return datos;
         }
-
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Major Code Smell", "S3928:Parameter names used into ArgumentException constructors should match an existing one ", Justification = "<Pending>")]
         public byte[] EncriptacionAES256(DTO.Encriptador encriptador)
         {
             // Check arguments.
@@ -114,7 +114,6 @@ namespace ProyectoFinalSeguridad.Consultas
                     {
                         using (StreamReader srDecrypt = new StreamReader(csDecrypt))
                         {
-
                             // Read the decrypted bytes from the decrypting stream
                             // and place them in a string.
                             plaintext = srDecrypt.ReadToEnd();
